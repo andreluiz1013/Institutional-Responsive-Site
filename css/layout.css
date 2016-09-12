@@ -1,0 +1,12 @@
+.layout-header{
+  border-bottom: 1px solid #f7caca;
+  height: 70px;
+}
+
+.layout-header img{
+  margin-top: 12px;
+}
+
+.layout-plans{
+  padding: 80px 0; /*Top - Bottom of 20px, and Left - Right 0 */
+}
