@@ -1,10 +1,20 @@
 .layout-header{
   height: 70px;
   border-bottom: 1px solid #f7caca;
+  background-color: #fff;
 }
 
 .layout-header img{
   margin-top: 12px;
+}
+
+.layout-header-fixed{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
 }
 
 .layout-plans{
@@ -13,6 +23,7 @@
 
 .layout-banner{
   padding: 80px 0;
+  margin-top: 70px;
 
   background-color: #cc6e9d;
   background-image: url(../images/married.jpg);
