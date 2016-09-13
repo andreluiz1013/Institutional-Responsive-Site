@@ -77,3 +77,49 @@
 .btn-more:hover, .btn-more:focus{
   background-color: #a90c54;
 }
+
+.btn-primary{
+  background-color: #2b3394;
+}
+
+.btn-primary:hover , .btn-primary:focus{
+  background-color: #003b66;
+}
+
+/*-------------------------*\
+            BANNER
+\*-------------------------*/
+
+.banner{
+  font-size: 1.6rem;
+  text-align: center;  
+}
+
+.banner-title{
+  margin: 0;
+
+  color: #fff;
+
+  font-size: 3.375em;
+  font-weight: lighter;
+  line-height: 0.9em;
+  text-shadow: 1px 1px #313131;
+}
+
+.banner-subtitle{
+  margin: 60px 0;
+  color: #fff;
+}
+
+.banner-action{
+  font-size: 1em;
+}
+
+@media(min-width:992px){
+  .banner{
+    padding-left: 10%;
+    padding-right: 10%;
+
+    font-size: 2.2rem;
+  }
+}
