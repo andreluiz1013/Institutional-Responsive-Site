@@ -3,11 +3,28 @@
 \*-------------------------*/
 
 .plan{
+  position: relative;
   border: 1px solid #b798ab;
   padding: 10px;
   border-radius: 4px;
 
   font-size: 1.4rem;
+}
+
+.plan-new::after{
+  position: absolute;
+  top: -10px;
+  left: -10px;
+
+  padding: 0 10px;
+
+  background-color: #c20303;
+  color: #fff;
+
+  font-size: 0.7142em;
+  line-height: 2.5;
+
+  content: "NOVO";
 }
 
 .plan-header {
