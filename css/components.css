@@ -92,7 +92,7 @@
 
 .banner{
   font-size: 1.6rem;
-  text-align: center;  
+  text-align: center;
 }
 
 .banner-title{
@@ -122,4 +122,42 @@
 
     font-size: 2.2rem;
   }
+}
+
+/*-------------------------*\
+            TESTIMONIAL
+\*-------------------------*/
+.testimonial{
+  font-size: 2.2rem;
+}
+
+@media(min-width:992px){
+  .testimonial{
+    padding-left: 10%;
+    padding-right: 10%;
+
+    font-size: 2.8rem;
+  }
+}
+
+.testimonial > blockquote{
+  margin: 0;
+  padding: 0 60px;
+
+  text-align: center;
+  font-size: 1em;
+}
+
+.testimonial-author{
+  margin-top: 40px;
+  text-align: center;
+  font-size: .90em;
+}
+
+.testimonial-author > img{
+  border-radius: 50%;
+}
+
+.testimonial-author > p{
+  margin-top: 10px;
 }

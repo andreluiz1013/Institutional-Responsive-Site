@@ -19,3 +19,8 @@
   background-size: auto;
   background-repeat: no-repeat;
 }
+
+.layout-testimonial{
+  padding: 80px 0;
+  background-color: #e7e7e7;
+}
