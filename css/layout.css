@@ -24,3 +24,12 @@
   padding: 80px 0;
   background-color: #e7e7e7;
 }
+
+.layout-footer{
+  padding: 60px 0;
+
+  background-color: #613058;
+
+  color: #fff;
+  text-align: center;
+}
