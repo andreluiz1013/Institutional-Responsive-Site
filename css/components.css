@@ -65,7 +65,7 @@
 }
 
 /*-------------------------*\
-            BUTTON
+          BUTTON
 \*-------------------------*/
 
 .btn {
@@ -75,6 +75,8 @@
   background-color: #bbb;
   color: #fff;
 
+  line-height: normal;
+  font-size: 1em;
   text-decoration: none;
   border-radius: 4px;
 }
@@ -87,11 +89,12 @@
   border-radius: 4px;
 }
 
-.btn-more{
+.btn-more, .btn-login{
   background-color: #b12b69;
 }
 
-.btn-more:hover, .btn-more:focus{
+.btn-more:hover, .btn-more:focus,
+.btn-login:hover, .btn-login:focus{
   background-color: #a90c54;
 }
 
@@ -104,7 +107,7 @@
 }
 
 /*-------------------------*\
-            BANNER
+           BANNER
 \*-------------------------*/
 
 .banner{
@@ -142,7 +145,7 @@
 }
 
 /*-------------------------*\
-            TESTIMONIAL
+        TESTIMONIAL
 \*-------------------------*/
 .testimonial{
   font-size: 2.2rem;
@@ -223,4 +226,38 @@
     .button-key{
       display: none;
     }
+}
+
+/*-------------------------*\
+            MENU
+\*-------------------------*/
+.menu{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+
+  width: 200px;
+  margin: 0;
+  padding: 20px;
+  border-right: 1px solid #eee;
+
+  font-size: 1.4em;
+
+  background-color: #823f67;
+
+  list-style: none;
+}
+
+.menu-item{
+  display: block;
+  line-height: 3;
+}
+
+.menu-item > a{
+  color: #fff;
+}
+
+.menu-item-btn{
+  margin-top: 20px
 }
