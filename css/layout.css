@@ -21,6 +21,12 @@
   padding: 80px 0; /*Top - Bottom of 20px, and Left - Right 0 */
 }
 
+@media(max-width: 991px){
+  .layout-plans .row > div:not(.last-col) {
+    margin-bottom: 40px;
+  }
+}
+
 .layout-banner{
   padding: 80px 0;
   margin-top: 70px;
