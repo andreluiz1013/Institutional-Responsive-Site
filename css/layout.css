@@ -1,12 +1,13 @@
 .layout-header{
   height: 70px;
+  line-height: 70px;
   border-bottom: 1px solid #f7caca;
   background-color: #fff;
 }
 
-.layout-header img{
+/*.layout-header img{
   margin-top: 12px;
-}
+}*/
 
 .layout-header-fixed{
   position: fixed;
