@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Just Married</title>
+    <link rel="stylesheet" href="/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/layout.css">
+  </head>
+  <body>
+
+    <header class="layout-header layout-header-fixed">
+      <div class="container">
+        <nav class="navigation navigation-register">
+          <a href="index.html">
+            <img src="images/logo.png" alt="Julie e Dan" width="200"/>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="layout-register">
+      <div class="container">
+        <form class="" action="#" method="POST">
+          <h1 class="title-form">Registre-se em nosso sistema</h1>
+          <div class="group-input">
+            <label for="name">Nome completo</label>
+            <input type="text" name="name" id="name" class="field" required>
+          </div>
+
+          <div class="row">
+
+              <div class="col-sm-3">
+                <div class="group-input">
+                  <label for="cpf">CPF</label>
+                  <input type="text" name="cpf" id="cpf" class="field" required>
+                </div>
+              </div>
+
+              <div class="col-sm-3">
+                <div class="group-input">
+                  <label for="birth">Data de nascimento</label>
+                  <input type="date" name="birth" id="birth" class="field" required>
+                </div>
+              </div>
+
+          </div>
+
+          <div class="group-input">
+            <label for="responsible">Responsável</label>
+            <input type="text" name="responsible" id="responsible" class="field" required>
+          </div>
+
+          <div class="group-input">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" class="field" required>
+          </div>
+
+          <div class="row">
+
+              <div class="col-sm-3">
+                <div class="group-input">
+                  <label for="state">Estado</label>
+                  <select class="field" id="state" name="state">
+                    <option>Selecione</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="PR">Paraná</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="col-sm-3">
+                <div class="group-input">
+                  <label for="city">Cidade</label>
+                  <select class="field" id="city" name="city">
+                    <option>Selecione</option>
+                    <option value="1">Uberlândia</option>
+                    <option value="2">São Paulo</option>
+                    <option value="3">Fortaleza</option>
+                    <option value="4">Ponta Grossa</option>
+                    <option value="5">Curitiba</option>
+                  </select>
+                </div>
+              </div>
+
+          </div>
+
+          <div class="row">
+
+              <div class="col-sm-3">
+                <div class="group-input">
+                  <label for="password">Senha</label>
+                  <input type="password" name="password" id="password" class="field" required>
+                </div>
+              </div>
+
+              <div class="col-sm-3">
+                <div class="group-input">
+                  <label for="confirm_password">Senha</label>
+                  <input type="password" name="confirm_password" id="confirm_password" class="field" required>
+                </div>
+              </div>
+
+          </div>
+
+          <div style="text-align: center; margin-top:30px;">
+              <input type="submit" name="register" value="Registrar" class="btn btn-primary">
+          </div>
+
+        </form>
+      </div>
+    </main>
+
+    <footer class="layout-footer">
+      <div class="container">
+        <p>
+          &copy; Julie & Dan. All Right Reserved.
+        </p>
+      </div>
+    </footer>
+    <script src="js/app.js"></script>
+  </body>
+</html>

@@ -74,6 +74,7 @@
 
   background-color: #bbb;
   color: #fff;
+  border: none;
 
   line-height: normal;
   font-size: 1em;
@@ -199,8 +200,8 @@
 /*-------------------------*\
         NAVIGATION
 \*-------------------------*/
-.navigation{
-
+.navigation-register {
+  text-align: center;
 }
 
 .navigation-menu{
@@ -237,21 +238,6 @@
   font-size: 1.4rem;
 
   list-style: none;
-  /*position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-
-  width: 200px;
-  margin: 0;
-  padding: 20px;
-  border-right: 1px solid #eee;
-
-  font-size: 1.4em;
-
-  background-color: #823f67;
-
-  list-style: none;*/
 }
 
 @media(max-width: 991px){
@@ -297,4 +283,47 @@
   .menu-item:last-of-type{
     padding-right: 0px;
   }
+}
+
+/*-------------------------*\
+         TITLE FORM
+\*-------------------------*/
+.title-form{
+  margin: 0;
+  margin-top: 100px;
+  margin-bottom: 40px;
+
+  border-bottom: 1px solid #ccc;
+
+  font-size: 2.6rem;
+  font-weight: normal;
+  color: #004b86;
+}
+
+/*-------------------------*\
+         GROUP INPUT
+\*-------------------------*/
+.group-input{
+  margin-bottom: 15px;
+}
+
+.group-input > label{
+  display: block;
+
+  font-weight: bold;
+}
+
+.field{
+  display: block;
+  width: 100%;
+  height: 2.8em;
+
+  padding: 5px;
+
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+  background-color: #fbfbfb;
+
+  font-size: 1.4rem;
 }
