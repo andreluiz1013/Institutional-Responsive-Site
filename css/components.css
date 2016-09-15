@@ -327,3 +327,42 @@
 
   font-size: 1.4rem;
 }
+
+/*-------------------------*\
+            TABLE
+\*-------------------------*/
+.table{
+  width: 100%;
+  margin: 0;
+  margin-top: 100px;
+  margin-bottom: 50px;
+
+  border-collapse: collapse;
+}
+
+.table td, th{
+  padding: 15px 10px;
+  border: 1px solid #ccc;
+}
+
+.table th {
+  background-color: #ececec;
+
+  font-size: 1.1em;
+  text-align: left;
+}
+
+.table tr:nth-child(even){
+  background-color: #f8f8f8;
+}
+
+.table tr:hover{
+  background-color: #faffcc;
+}
+
+/*-------------------------*\
+        INFORMATION
+\*-------------------------*/
+.information{
+  text-align: center;
+}
