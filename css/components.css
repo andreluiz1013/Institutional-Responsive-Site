@@ -232,7 +232,12 @@
             MENU
 \*-------------------------*/
 .menu{
-  position: fixed;
+  margin: 0;
+
+  font-size: 1.4rem;
+
+  list-style: none;
+  /*position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
@@ -246,18 +251,45 @@
 
   background-color: #823f67;
 
-  list-style: none;
+  list-style: none;*/
 }
 
-.menu-item{
-  display: block;
-  line-height: 3;
+@media(max-width: 991px){
+  .menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+
+    width: 200px;
+    margin: 0;
+    padding: 20px;
+    border-right: 1px solid #eee;
+
+    background-color: #823f67;
+  }
+
+  .menu-item{
+    display: block;
+    line-height: 3;
+  }
+
+  .menu-item > a{
+    color: #fff;
+  }
+
+  .menu-item-btn{
+    margin-top: 20px
+  }
 }
 
-.menu-item > a{
-  color: #fff;
-}
+@media(min-width: 992px){
+  .menu-item{
+    display: inline-block;
+    padding-right: 20px;
+  }
 
-.menu-item-btn{
-  margin-top: 20px
+  .menu-item:last-of-type{
+    padding-right: 0px;
+  }
 }
