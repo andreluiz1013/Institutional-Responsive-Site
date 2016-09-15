@@ -261,12 +261,17 @@
     left: 0;
     bottom: 0;
 
+    display: none;
     width: 200px;
     margin: 0;
     padding: 20px;
     border-right: 1px solid #eee;
 
     background-color: #823f67;
+  }
+
+  .menu-is-show{
+    display: block;
   }
 
   .menu-item{
